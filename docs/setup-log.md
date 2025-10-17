@@ -41,6 +41,12 @@
 - AZ: us-east-1d
 - Subnet ID: subnet-0345bde0bb4aa0277
 
+**Private Subnet 2:**
+- Name: adventure-works-private-subnet-2-new
+- CIDR: 10.0.5.0/24
+- AZ: us-east-1a
+- Subnet ID: subnet-04d12dc875f7c47f4
+
 #### Route Tables
 
 **Public Route Table:**
@@ -54,7 +60,7 @@
 **Private Route Table:**
 - Name: adventure-works-private-rt
 - Route Table ID: rtb-1a2b3c4d5e6f7g8h9
-- Associated Subnets: private-subnet-1, private-subnet-2
+- Associated Subnets: private-subnet-1, private-subnet-2, private-subnet-2-new
 - Routes:
   - 10.0.0.0/16 → local
 

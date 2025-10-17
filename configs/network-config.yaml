@@ -1,11 +1,11 @@
 vpc:
   name: adventure-works-vpc
   cidr: 10.0.0.0/16
-  id: vpc-xxxxxxxxx  # Update with your actual ID
+  id: vpc-02adea5348b909d4f
 
 internet_gateway:
   name: adventure-works-igw
-  id: igw-xxxxxxxxx  # Update with your actual ID
+  id: igw-0ff76d943e5a93448 
 
 subnets:
   public:
@@ -26,6 +26,10 @@ subnets:
     - name: adventure-works-private-subnet-2
       cidr: 10.0.4.0/24
       az: us-east-1b
+      id: subnet-xxxxxxxxx
+    - name: adventure-works-private-subnet-2
+      cidr: 10.0.5.0/24
+      az: us-east-1a
       id: subnet-xxxxxxxxx
 
 route_tables:
