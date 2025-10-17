@@ -1,4 +1,4 @@
-Two‑Tier Joomla on AWS (EC2 + RDS) — VS Code + Terminal + Git Workflow
+Two‑Tier Joomla on AWS (EC2 + RDS) — VS Code + Terminal + Git Workflow (http://bit.ly/4qeVKx1)
 
 A repeatable, script‑driven workflow to deploy Joomla 4.x on AWS with a clean two‑tier architecture:
 
